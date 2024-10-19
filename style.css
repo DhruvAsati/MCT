@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.stock-search, .trending-stocks {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#trending-dropdown{
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+#stock-symbol {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#comparison-table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#comparison-table th, #comparison-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#comparison-table th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 600px) {
+    #stock-details, #comparison-table {
+        font-size: 14px;
+    }
+}
